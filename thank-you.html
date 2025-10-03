@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You for Your Purchase!</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom Tailwind Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 flex items-center justify-center min-h-screen">
+
+  <main class="text-center bg-white p-8 sm:p-12 rounded-xl shadow-lg max-w-lg mx-auto">
+    <svg class="w-16 h-16 text-green-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+    <h1 class="text-3xl font-bold text-slate-900 mb-2">Thank You!</h1>
+    <p class="text-slate-600 mb-6">Your payment was successful. You can now download your ebook below.</p>
+    
+    <!-- IMPORTANT: Replace the href with the actual link to your ebook file -->
+    <a href="https://drive.google.com/file/d/1ZfqmRj3-L6MHBpDNm53XoUozYNQTWRFi/export?format=pdf" 
+       download
+       class="bg-yellow-400 text-slate-900 font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-yellow-300 transition-all duration-300 ease-in-out transform hover:scale-105 inline-block">
+      Download Your Blueprint
+    </a>
+
+    <p class="text-xs text-slate-400 mt-8">If you have any issues, please contact us at your-email@example.com. A receipt for your purchase has been emailed to you.</p>
+  </main>
+
+</body>
+</html>

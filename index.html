@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Delivery Startup Blueprint</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom Tailwind Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <!-- PayPal SDK Hosted Buttons -->
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAAJ0ekuG9LuWwrfXi9p6fr-RAM6rzIihUucjo8u46mJrIqW6b_v03jG_wRcLDY7qo85O-JhPWGCRciC5s&components=hosted-buttons&disable-funding=venmo&currency=PHP">
+  </script>
+  <style>
+    /* A little custom CSS for smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- Header Section -->
+  <header class="bg-slate-900 text-white">
+    <div class="container mx-auto px-6 py-20 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">The Delivery Startup Blueprint</h1>
+      <p class="text-lg md:text-xl text-slate-300 mb-8 max-w-3xl mx-auto">Turn your food delivery business idea into a profitable reality with this comprehensive step-by-step guide.</p>
+      <a href="#buy" class="bg-yellow-400 text-slate-900 font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-yellow-300 transition-all duration-300 ease-in-out transform hover:scale-105">
+        Get Your Copy Now
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- What You'll Learn Section -->
+    <section class="py-16 sm:py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-slate-900">What You’ll Learn</h2>
+          <p class="text-slate-600 mt-2">A complete roadmap from A to Z.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Feature Card 1 -->
+          <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
+            <img src="https://i.ibb.co/355nJX1N/Chat-GPT-Image-Oct-2-2025-02-12-51-PM.png" alt="Idea to Launch" class="rounded-lg mb-6 w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/475569?text=Idea+to+Launch';">
+            <h3 class="text-xl font-bold mb-2">From Idea to Launch</h3>
+            <p class="text-slate-600">Discover the exact process JDS Food Delivery used to start, and learn how you can replicate their success.</p>
+          </div>
+          <!-- Feature Card 2 -->
+          <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
+            <img src="https://i.ibb.co/84GdH36g/Chat-GPT-Image-Oct-2-2025-02-16-51-PM.png" alt="Legal Setup" class="rounded-lg mb-6 w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/475569?text=Legal+Setup';">
+            <h3 class="text-xl font-bold mb-2">Legal & Business Setup</h3>
+            <p class="text-slate-600">Navigate the step-by-step requirements for SEC registration, business permits, and essential contracts.</p>
+          </div>
+          <!-- Feature Card 3 -->
+          <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
+            <img src="https://i.ibb.co/Kpvt7Dyn/Chat-GPT-Image-Oct-2-2025-02-20-22-PM.png" alt="Tech Stack" class="rounded-lg mb-6 w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/475569?text=Tech+Stack';">
+            <h3 class="text-xl font-bold mb-2">Technology & Tools</h3>
+            <p class="text-slate-600">Get an inside look at the apps, websites, and integrations that powered JDS Food Delivery's operations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-slate-800 text-white" id="buy">
+      <div class="container mx-auto px-6 py-20 text-center">
+        <div class="max-w-xl mx-auto">
+          <h3 class="text-3xl md:text-4xl font-bold mb-4">Get the Ebook Today</h3>
+          <p class="text-slate-300 mb-6">Gain access to exclusive strategies, ready-to-use templates, and real-world insights to help you launch faster.</p>
+          <div class="bg-slate-700 inline-block p-4 rounded-xl my-6">
+            <span class="text-4xl font-bold text-yellow-400">Only ₱499</span>
+          </div>
+          <!-- PayPal Hosted Button Container -->
+          <div id="paypal-container-GVGZEZL4W3C8C" class="max-w-sm mx-auto mt-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 sm:py-24">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-slate-900">What Our Readers Are Saying</h2>
+          <p class="text-slate-600 mt-2">Real stories from aspiring entrepreneurs.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Testimonial Card 1 -->
+          <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+            <img src="https://i.ibb.co/HL7NXZFV/3.png" alt="Customer 1" class="w-20 h-20 rounded-full mx-auto -mt-16 mb-4 border-4 border-white shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/100x100/e2e8f0/475569?text=MR';">
+            <p class="text-slate-600 italic">“This ebook gave me the confidence to finally start my own delivery business. Worth every peso!”</p>
+            <strong class="block mt-4 text-slate-900">- Miguel R.</strong>
+          </div>
+          <!-- Testimonial Card 2 -->
+          <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+            <img src="https://i.ibb.co/G4T224Qg/2.png" alt="Customer 2" class="w-20 h-20 rounded-full mx-auto -mt-16 mb-4 border-4 border-white shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/100x100/e2e8f0/475569?text=AS';">
+            <p class="text-slate-600 italic">“Clear, practical, and motivating. It felt like Jason was mentoring me personally.”</p>
+            <strong class="block mt-4 text-slate-900">- Anna S.</strong>
+          </div>
+          <!-- Testimonial Card 3 -->
+          <div class="bg-white p-8 rounded-xl shadow-lg text-center">
+            <img src="https://i.ibb.co/PZRcS8z1/1.png" alt="Customer 3" class="w-20 h-20 rounded-full mx-auto -mt-16 mb-4 border-4 border-white shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/100x100/e2e8f0/475569?text=CD';">
+            <p class="text-slate-600 italic">“The templates alone saved me weeks of work. I can't recommend this enough.”</p>
+            <strong class="block mt-4 text-slate-900">- Carlo D.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 text-center py-6">
+    <div class="container mx-auto px-6">
+      <p>&copy; 2025 The Delivery Startup Blueprint. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize PayPal button
+    paypal.HostedButtons({
+      hostedButtonId: "GVGZEZL4W3C8C"
+    }).render("#paypal-container-GVGZEZL4W3C8C");
+  </script>
+</body>
+</html>
